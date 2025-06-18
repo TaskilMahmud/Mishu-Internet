@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mishu Internet</title>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Jquery -->
+    <script src="https://www.amberit.com.bd/js/jquery.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/popper.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/bootstrap.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/owl.carousel.js"></script>
+    <script src="https://www.amberit.com.bd/js/navigation.js"></script>
+    <script src="https://www.amberit.com.bd/js/navigation.fixed.js"></script>
+    <script src="https://www.amberit.com.bd/js/wow.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/jquery.counterup.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/waypoints.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/tabs.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/isotope.pkgd.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/swiper.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/modernizr.js"></script>
+    <script src="https://www.amberit.com.bd/js/switcher.js"></script>
+    <script src="https://www.amberit.com.bd/js/map.js"></script>
+    <script src="https://www.amberit.com.bd/js/main.js"></script>
+    <script src="https://www.amberit.com.bd/js/validation.min.js"></script>
+    <script src="https://www.amberit.com.bd/js/script.js"></script>
+    <script type="text/javascript">
+      $(window).on("load", function () {
+        $("#successModal").modal("show");
+      });
+    </script>
+
+    <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet" />
+
+    <!-- Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/icomoon.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/swiper.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/slider.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/switcher.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/default.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/SolaimanLipi.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/styles.css"
+      id="colors"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.amberit.com.bd/css/custom.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <!--new end-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!--Linking custom fonts-->
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="icon" href="Resource/pics/fav1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/body.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <style>
+      .number-box-line:before {
+        content: "";
+        display: block;
+        margin: auto;
+        margin-bottom: -7.5px;
+        height: 15px;
+        width: 15px;
+        border: 2px solid #1e55d2;
+        background: #fff;
+        border-radius: 50%;
+      }
+      .button-md {
+        background-color: rgb(37, 205, 238);
+        color: white;
+        border-radius: 25px;
+      }
+
+      .primary-button :hover {
+        background-color: #0e6790;
+        color: rgb(37, 205, 238);
+      }
+
+      .swiper-slide {
+        height: 500px;
+      }
+
+      *:focus {
+        outline: none;
+        color:black;
+      }
+      a :hover {
+        color: rgb(37, 205, 238);
+      }
+       a:hover{color: #00eeffa9 !important;}
+       .link a:hover{color: #00eeffa9 !important;}
+    </style>
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "Organization",
+        "name": "Mishu Internet",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Akter Tower, 328/D E Nakhalpara Rd",
+          "addressLocality": "Dhaka",
+          "addressRegion": "Dhaka",
+          "postalCode": "1215"
+        },
+        "telephone": "+880 1312-398655"
+      }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-140814081-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-140814081-1");
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NTS77X8");
+    </script>
+    <!-- End Google Tag Manager -->
+
+  </head>
+
+
+  <body>
+
+    <!-- Navbar START -->
+    <header>
+      <nav id="navigation4" class="container navigation">
+        <div class="nav-header">
+          <a class="nav-brand" href="https://mishuinternet.com/">
+            <img
+              class="main-logo"
+              id="main_logo"
+            />
+          </a>
+          <p>
+            <a class="org-name" href="https://mishuinternet.com/"
+              ><b>Mishu <span>Internet</span></b></a
+            >
+          </p>
+          <div class="nav-toggle"></div>
+        </div>
+        <!--<button type="button" class="btn btn-outline-danger ml-5 btn-sm d-md-none d-lg-none d-xl-none" data-toggle="modal" style="margin-top:10px!important" data-target="#iptvPreReg">IPTV Pre-registration</button>-->
+        <div class="nav-menus-wrapper">
+          <ul class="nav-menu align-to-right">
+            <!--Links to alternative pages in the navbar-->
+            <li>
+              <a href="pages/about/about.html"><b>About</b></a>
+            </li>
+            <li>
+              <a href="pages/packages/package.html"><b>Services</b></a>
+            </li>
+            <li>
+              <a href="pages/packages/package.html"><b>Packages</b></a>
+            </li>
+            <li>
+              <a href="https://www.mishuinternet.com:2096/"><b>Email</b></a>
+            </li>
+            <li>
+              <a href="pages/contact/contact.html"><b>Contact</b></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar END -->
+    <!--The intro banner-->
+    <div style="width: 90%; height: 60%; position: relative">
+      <img
+        src="Resource/pics/world.gif"
+        width="98.9%"
+        height="100vw"
+        style="position: fixed; top: 0"
+      />
+      <span
+        class="text"
+        style="
+          position: relative;
+          font-family: 'Valorant';
+          top: 30%;
+          left: 31%;
+          font-size: 7vw;
+          color: white;
+          text-shadow: 2px 2px 2px black;
+        "
+        >MISHU</span
+      >
+      <span
+        class="text"
+        style="
+          position: absolute;
+          font-family: 'Valorant';
+          top: 50%;
+          left: 35%;
+          font-size: 7vw;
+          color: white;
+          text-shadow: 2px 2px 2px black;
+        "
+        >INTERNET</span
+      >
+    </div>
+
+    <!-- Info Section START -->
+    <div class="section-block pb-0" style="position: relative">
+      <div
+        class="container"
+        style="margin-bottom: 0px; margin-top: 20px; background-color: white"
+      >
+        <div class="row" style="background-color: white">
+          <div class="col-md-5 col-sm-7 col-13">
+            <div class="section-heading mt-30">
+              <span style="color: #29b0ee; font-size: large"
+                >Welcome to Mishu Internet</span
+              >
+              <h4>Where Speed meets Reliability</h4>
+              <div
+                class="section-heading-line-left"
+                style="background-color: rgb(25, 175, 239)"
+              ></div>
+            </div>
+            <div class="text-content mt-25 animated fadeInDown">
+              <p>
+                We are dedicated to providing fast, reliable, and secure
+                internet connectivity for both residential and business
+                customers. Our high-speed broadband services cater to the
+                ever-increasing demands of today's digital world, empowering you
+                to connect, communicate, and collaborate effortlessly. Backed by
+                a team of expert professionals, we offer exceptional customer
+                support, resolving any technical issues promptly. Whether you're
+                a casual internet user or a demanding business, we have flexible
+                plans and packages tailored to meet your specific
+                needs.Experience the difference with our ISP Company today!
+              </p>
+            </div>
+            <div class="animated fadeInUp mt-30 mb-auto">
+              <a href="pages/about/about.html" class="primary-button button-md"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-md-7 col-sm-6 col-12 mt-n3 mmt-0">
+            <!--New pic to be added-->
+            <img
+              src="Resource/pics/Office.png"
+              style="height: 500px; width: 1000px"
+              alt="Mishu"
+              class=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Info Section END -->
+
+    <!--carasoul section-->
+    <div
+      class="swiper-main-slider-fade swiper-container"
+      style="margin-top: 0; position: relative"
+    >
+      <div class="swiper-wrapper">
+        <!-- Slide 1 Start -->
+        <div class="swiper-slide slider-1">
+          <!-- <div class="medium-overlay"></div> -->
+          <div class="container">
+            <div class="slider-content left-holder">
+              <div class="row m-flex-column-reverse">
+                <div
+                  class="col-md-6 col-sm-12 col-12 d-flex flex-column m-text-center"
+                >
+                  <h2 class="animated fadeInDown mt-auto">
+                    MISHU <span class="font-weight-light">INTERNET</span>
+                  </h2>
+                  <p class="animated fadeInDown d-none">
+                    Mishu internet offers safe internet access services with
+                    various service level descriptions for corporate businesses
+                    and SMEs.
+                  </p>
+                  <div class="animated fadeInUp mt-30 mb-auto">
+                    <a href="pages/about/about.html" class="primary-button button-md"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12 mmb-50">
+                  <p class="animated bounceInRight">
+                    <img
+                      src="Resource/pics/internet1.jpg"
+                      alt="Corporate Internet"
+                      class="w-100"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 1 End -->
+
+        <!-- Slide 2 Start -->
+        <div class="swiper-slide slider-2">
+          <div class="container">
+            <div class="slider-content left-holder">
+              <div class="row m-flex-column-reverse">
+                <div class="col-md-6 col-sm-12 col-12 mmb-50">
+                  <p class="animated jello">
+                    <img
+                      src="Resource/pics/wifiHome2.png"
+                      alt="Wifi home"
+                      class="w-100"
+                    />
+                  </p>
+                </div>
+
+                <div
+                  class="col-md-6 col-sm-12 col-12 d-flex flex-column m-text-center"
+                >
+                  <h2 class="animated fadeInDown mt-auto">
+                    HOME <span class="font-weight-light">WIFI </span>
+                  </h2>
+                  <p class="animated fadeInDown d-none">
+                    Mishu Internet provides an extensive range of high quality
+                    data & internet connectivity services throughout the
+                    country.
+                  </p>
+                  <div class="animated fadeInUp mt-30 mb-auto">
+                    <a href="pages/packages/package.html" class="primary-button button-md"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 End -->
+
+        <!-- Slide 3 Start -->
+        <div class="swiper-slide slider-3">
+          <div class="container">
+            <div class="slider-content left-holder">
+              <div class="row m-flex-column-reverse">
+                <div
+                  class="col-md-6 col-sm-12 col-12 d-flex flex-column m-text-center"
+                >
+                  <h2 class="animated fadeInDown mt-auto">
+                    <span class="font-weight-light">OUR POPULAR</span> OFFERS
+                  </h2>
+                  <p class="animated fadeInDown d-none">
+                    15 Mbps @ 1200 BDT/month Fiber Optics 1 Real IP Free Free
+                    Talk Time - Unlimited 24 Hours 24/7 Customer Support
+                  </p>
+                  <div class="animated fadeInUp mt-30 mb-auto">
+                    <a href="pages/packages/package.html" class="primary-button button-md"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12 mmb-50">
+                  <p class="animated rubberBand">
+                    <img
+                      src="Resource/pics/offer1.png"
+                      alt="Popular Package"
+                      class="w-100"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 End -->
+
+        <!-- Slide 4 Start -->
+        <div class="swiper-slide slider-4">
+          <div class="container">
+            <div class="slider-content left-holder">
+              <div class="row m-flex-column-reverse">
+                <div class="col-md-6 col-sm-12 col-12 mmb-50">
+                  <p class="animated lightSpeedIn">
+                    <img
+                      src="Resource/pics/support.jpg"
+                      alt="Contact us"
+                      class="w-100"
+                    />
+                  </p>
+                </div>
+
+                <div
+                  class="col-md-6 col-sm-12 col-12 d-flex flex-column m-text-center"
+                >
+                  <h2 class="animated fadeInDown mt-auto">
+                    CONTACT <span class="font-weight-light">US</span>
+                  </h2>
+                  <p class="animated fadeInDown d-none">
+                    We addresses the voice communication needs of diverse
+                    customer groups with a high quality and reliable service.
+                  </p>
+                  <div class="animated fadeInUp mt-30 mb-auto">
+                    <a href="pages/contact/contact.html" class="primary-button button-md"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 4 End -->
+
+        <!-- Slide 5 Start -->
+        <!--div class="swiper-slide slider-5">
+          <div class="container">
+            <div class="slider-content left-holder">
+              <div class="row m-flex-column-reverse">
+                <div
+                  class="col-md-6 col-sm-12 col-12 d-flex flex-column m-text-center"
+                >
+                  <h2 class="animated fadeInDown mt-auto">
+                    IP PHONE <span class="font-weight-light">Services</span>
+                  </h2>
+                  <p class="animated fadeInDown d-none">
+                    Mishu Internet provides excellent service IP services
+                  </p>
+                  <div class="animated fadeInUp mt-30 mb-auto">
+                    <a href="pages/sorry.html" class="primary-button button-md"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12 mmb-50">
+                  <p class="animated jackInTheBox">
+                    <img
+                      src="Resource/pics/IP.jpg"
+                      alt="IP Services"
+                      class="w-100"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div-->
+        <!-- Slide 5 End -->
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next">
+        <i class="fa fa-angle-right fa-3x" style="color: rgb(56, 183, 246)"></i>
+      </div>
+      <div class="swiper-button-prev">
+        <i class="fa fa-angle-left fa-3x" style="color: rgb(56, 183, 246)"></i>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Scroll to top button Start -->
+    <a
+      href="#"
+      class="scroll-to-top"
+      style="display: intial; position: relative"
+      ><i class="fa fa-angle-up" aria-hidden="true"></i
+    ></a>
+    <!-- Scroll to top button End -->
+
+    <!-- Clients Carousel START -->
+    <!-- <div class="section-clients py-4" style="position:relative">
+  <div class="container">
+      <div class="owl-carousel owl-theme clients" id="clients">
+          <div class="item">
+              <img src="Resource/pics/BTCL.png" alt="BTCL">
+          </div>
+
+          <div class="item">
+              <img src="Resource/pics/BHUB.png" alt="BD Hub">
+          </div>
+
+          <div class="item">
+              <img src="Resource/pics/CISCO.png" alt="Cisco">
+          </div>
+
+          <div class="item">
+              <img src="Resource/pics/Allo.png" alt="Allot">
+          </div>
+
+          <div class="item">
+              <img src="Resource/pics/JUNI.png" alt="Juniper">
+          </div>
+
+          <div class="item">
+              <img src="Resource/pics/GP.png" alt="Grameen Phone">
+          </div>
+
+          <div class="item">
+              <img src="Resource/pics/CCELL.png" alt="Citycell">
+          </div>
+
+          <div class="item">
+              <img src="Resource/pics/Bling.png" alt="Banglalink">
+          </div>
+
+          <div class="item">
+              <img src="Resource/pics/Bara.png" alt="Baracudda">
+          </div>
+      </div>
+  </div>
+</div> -->
+    <!--Carasoul end-->
+<!--div>
+  <div class="section-clients py-4" style="position:relative">
+    <div class="container">
+        <div class="owl-carousel owl-theme clients" id="clients">
+            <div class="item">
+                <img src="Resource/pics/BTCL.png" alt="BTCL">
+            </div>
+  
+            <div class="item">
+                <img src="Resource/pics/BHUB.png" alt="BD Hub">
+            </div>
+  
+            <div class="item">
+                <img src="Resource/pics/CISCO.png" alt="Cisco">
+            </div>
+  
+            <div class="item">
+                <img src="Resource/pics/Allo.png" alt="Allot">
+            </div>
+  
+            <div class="item">
+                <img src="Resource/pics/JUNI.png" alt="Juniper">
+            </div>
+  
+            <div class="item">
+                <img src="Resource/pics/GP.png" alt="Grameen Phone">
+            </div>
+  
+            <div class="item">
+                <img src="Resource/pics/CCELL.png" alt="Citycell">
+            </div>
+  
+            <div class="item">
+                <img src="Resource/pics/Bling.png" alt="Banglalink">
+            </div>
+  
+            <div class="item">
+                <img src="Resource/pics/Bara.png" alt="Baracudda">
+            </div>
+        </div>
+    </div>
+  </div>
+</div-->
+    
+    <!-- Video Section START -->
+    <div class="video-section" style="height: 480px; position: relative">
+      <div class="video-area" id="video-area" style="height: 480px">
+        <div
+          class="player"
+          id="video-play"
+          style="position: absolute"
+          data-property="{videoURL:'https://www.youtube.com/watch?v=mPwAJdSH3XQ', containment:'#video-area', showControls:false, autoPlay:true, zoom:0, loop:true, mute:true, startAt:4, opacity:2, quality:'high',}"
+        ></div>
+        <div class="video-overlay" style="height: 480px">
+          <div class="video-content">
+            <div class="section-heading center-holder white-color">
+              <span>Gain a Success With Us!</span>
+              <h2>
+                <strong
+                  >For further queries please contact with our support
+                  team.</strong
+                >
+              </h2>
+              <h4>
+                Your best decision for smart and reliable Internet Solutions.
+              </h4>
+              <a href="pages/contact/contact.html" class="primary-button button-md mt-10"
+                >Become a Client</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Video End-->
+
+    <!--The footer for our webpage-->
+    <div style="display: block">
+      <footer class="section-p1">
+        <div class="col">
+          <h4>Contact Us</h4>
+          <p>
+            <strong>Address:</strong> 350, East Nakhalpara, Tejgaon I/A, Dhaka,
+            Bangladesh
+          </p>
+          <p><strong>Phone:</strong> +880 1312-398655</p>
+          <p><strong>Email:</strong> mishu.jhony@gmail.com</p>
+          <p><strong>Hours:</strong> 10:00 - 16:00; Mon - Sat</p>
+        </div>
+
+        <!--links to alternative pages on website-->
+        <div class="col">
+          <h4>Useful Links</h4>
+          <a href="pages/sorry.html">Payments</a>
+          <a href="https://www.mishuinternet.com:2096/">Email</a>
+          <a href="pages/sorry.html">Support</a>
+          <a href="pages/sorry.html">Packages</a>
+          <a href="pages/sorry.html">Contacts</a>
+        </div>
+
+        <div class="col">
+          <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+              <a href="https://www.facebook.com/mishuinternet">
+                <i id="fb" href="" class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://twitter.com/"
+                ><i id="tw" class="fab fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/"
+                ><i id="is" class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.pinterest.com/"
+                ><i id="pn" class="fab fa-pinterest-p"></i
+              ></a>
+              <a href="https://www.linkedin.com/"
+                ><i id="ln" class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p id="US">Ⓒ SMU OWLS</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

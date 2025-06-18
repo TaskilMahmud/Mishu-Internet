@@ -1,0 +1,98 @@
+/*
+Purpose: Provides styling for the footer section of webpages
+Author(s) / Work Done: 
+Rahabar Mahmud - HTML element styling
+*/
+
+/*html elements section*/
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+    justify-content: space-evenly;
+    background-color: #282d32 ;
+	
+    width: 100%;
+    margin-bottom: 0;
+}
+
+footer .col{
+    display:flex;
+    width: 29%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color:#f0f9ff;
+
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    color: #f5f7e6;
+
+}
+
+footer #US{
+    color:rgb(172, 216, 217);
+}
+
+footer a:hover{
+    color:aqua
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color:#f5f7e6;
+    margin-bottom: 10px;
+}
+
+footer .follow i{ 
+    display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+    /*transition for animation smoothing*/
+	transition: all 0.5s ease;
+}
+
+footer .follow #fb:hover{
+    color: white;
+	background-color: rgb(51, 59, 225);
+}
+
+footer .follow #tw:hover{
+    color: white;
+	background-color: aqua;
+}
+
+footer .follow #is:hover{
+    color: white;
+	background-color: rgb(191, 44, 207);
+}
+
+footer .follow #pn:hover{
+    color: white;
+	background-color: red;
+}
+
+footer .follow #ln:hover{
+    color: white;
+	background-color: rgb(20, 101, 193);
+}
+
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}

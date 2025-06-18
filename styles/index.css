@@ -1,0 +1,105 @@
+/*
+Purpose: Never utilised
+Author(s) / Work Done: 
+*/
+
+/*html elements section*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-heading span {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  color: #d21e2b;
+  line-height: 200%;
+  margin-bottom: 10px;
+}
+
+div {
+  display: block;
+}
+
+.intro-photo {
+  width: 50%;
+  display: inline-table;
+  padding: 100px;
+
+  background-image: url("../Resource/pics/spin.jpg");
+  background-size: auto;
+  height: 500px;
+  border-radius: 60px;
+  background-position: bottom;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  margin-right: 1vmin;
+}
+
+
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.intro-section {
+  display: inline-block;
+  width: 100%;
+}
+
+.section-p1 {
+  padding:40px 80px;
+
+}
+
+.intro-content {
+  width: 50%;
+  display: inline-table;
+  padding: 20px;
+}
+
+.intro-photo {
+  width: 50%;
+  display: inline-table;
+  padding: 10px;
+
+  background-image: url("../resources/map1.jpg");
+  background-size: auto;
+  height: 500px;
+  border-radius: 60px;
+  background-position: bottom;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  margin-right: 1vmin;
+}
+
+.intro-text {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1vmin;
+  padding: 10px;
+}
+
+
+.intro-title {
+  width: 50%;
+  text-align: center;
+}
+
